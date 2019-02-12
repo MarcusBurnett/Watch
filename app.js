@@ -26,7 +26,7 @@ function runClock(){
     var minute = today.getMinutes();
     var second = today.getSeconds();
     
-    var hourRotation = 30 * hour;
+    var hourRotation = (30 * hour) + minute * 0.5;
     var minuteRotation = 6 * minute;
     var secondRotation = 6 * second;
 
