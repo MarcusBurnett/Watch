@@ -83,12 +83,12 @@ body {
 }
 
 .center {
-    width: 12px;
-    height: 12px;
+    width: 0.7%;
+    height: 1.2%;
     border-radius: 50%;
     background: white;
     position: absolute;
-    border: .2px solid grey;
+    border: 0.5px solid grey;
 }
 
 .time {
@@ -99,7 +99,7 @@ body {
     padding-bottom: 34%;
 }
 
-.time p {
-    font-size: 1000%;
-    margin-top: 0;
+#time {
+    font-size: 10vw;
+    margin-top: 0%;
 }
