@@ -66,7 +66,7 @@ body {
 #seconds {
     position: absolute;
     width: 2%;
-    height: 45%;
+    height: 35%;
     background: url(hand2.png);
     background-size: 11%;
     background-position:center;
@@ -78,13 +78,11 @@ body {
     position: absolute;
     width: 7%;
     padding-bottom: 4.5%;
-
-
 }
 
 .center {
-    width: 0.7%;
-    height: 1.2%;
+    width: 0.8vw;
+    height: 0.8vw;
     border-radius: 50%;
     background: white;
     position: absolute;
@@ -96,10 +94,54 @@ body {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     opacity: .5;
-    padding-bottom: 34%;
+    padding-top: 2vh;
+    top: 0;
 }
 
 #time {
     font-size: 10vw;
     margin-top: 0%;
+}
+
+@media screen and (max-width: 600px){
+    .container {
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .clock {
+        height: 80vh;
+        width: 80vh;
+    }
+
+    .clock-face {
+        width: 35vh;
+        height: 35vh;
+        min-width: 145px;
+        min-height: 145px;
+    }
+
+    #hours {
+        background-size: 35%;
+    }
+    
+    #minutes {
+        background-size: 27%;        
+    }
+    
+    #seconds {
+        background-size: 30%;
+    }
+
+    #time {
+        font-size: 20vw;
+        margin-top: 0%;
+    }
+
+    #armani {
+        position: absolute;
+        width: 20vw;
+        max-width: 92px;
+        padding-bottom: 10%;
+    }
 }
