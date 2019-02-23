@@ -104,29 +104,24 @@ body {
 }
 
 
-@media screen and (max-width:1000px){
+@media screen and (max-width: 1000px){
     .container {
-        height: 100vh;
+        height: 100vw;
         width: 100vw;
-        min-height: 500px;
-        max-height: 800px;
+        margin-top: 8vh;
     }
 
     .clock {
-        height: 80vh;
-        width: 80vh;
+        height: 100vw;
+        width: 100vw;
         min-width: 500px;
-        min-height: 500px;
-        max-height: 500px;
-
-        background-size: cover;
+        background-size: 100vw;
     }
 
     .clock-face {
-        width: 40vh;
-        height: 40vh;
-        min-width: 145px;
-        min-height: 145px;
+        width: 40vw;
+        height: 40vw;
+
     }
 
     #hours {
@@ -142,34 +137,13 @@ body {
     }
 
     #time {
-        font-size: 20vw;
+        font-size: 10rem;
         margin-top: 0%;
     }
 
     #armani {
         position: absolute;
-        width: 92px;
-        padding-bottom: 10vh;
-    }
-}
-
-@media screen and (max-width: 600px){
-    .clock-face {
-        width: 38vh;
-        height: 38vh;
-        min-height: 215px;
-        min-width: 215px;
-    }
-
-    #hours {
-        background-size: 35%;
-    }
-    
-    #minutes {
-        background-size: 27%;        
-    }
-    
-    #seconds {
-        background-size: 30%;
+        width: 15vw;
+        padding-bottom: 10vw;
     }
 }
