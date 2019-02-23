@@ -126,14 +126,17 @@ body {
 
     #hours {
         background-size: 25%;
+        min-height: 320px
     }
     
     #minutes {
-        background-size: 20%;        
+        background-size: 20%; 
+        min-height: 340px;       
     }
     
     #seconds {
         background-size: 25%;
+        min-height: 350px;
     }
 
     #time {
